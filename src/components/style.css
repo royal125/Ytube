@@ -1,0 +1,86 @@
+
+
+/* style.css */
+/* FeaturesSection.css */
+.desc {
+  color: #dee9ee;
+}
+
+
+
+.css-j3jqhj-MuiInputBase-input-MuiOutlinedInput-input {
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentColor;
+    padding: 4px 0 5px;
+ border-radius: 15px !important;
+    box-sizing: content-box;
+    background-color:black  !important;
+    height: 3em;
+    margin: 4px  4px  4px 4px  !important;
+    max-height:100% !important;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0;
+    width: 100%;
+    -webkit-animation-name: mui-auto-fill-cancel;
+    animation-name: mui-auto-fill-cancel;
+    -webkit-animation-duration: 10ms;
+    animation-duration: 10ms;
+
+}
+
+
+
+.css-7mb8ha-MuiFormControl-root-MuiTextField-root {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    min-width: 0;
+    padding: 0;
+    margin: 6px;
+    border: 0;
+    vertical-align: top;
+    width: 70%;
+    background-color:#a9a6a6 !important;
+    border-radius: 20px !important;
+
+}
+
+.bt-fetch{
+    width: 10% !important;
+    height: 4.5em !important;
+}
+.bt-fetch:hover{
+    background-color: #03a567 !important;
+    color: white !important;
+    border-radius: 15px !important;
+    transition: all .7s fade-in-out !important;
+    animation-timing-function: .3s ease-in-out !important;
+    box-shadow: 0 0 10px #03a567 !important;
+}
+
+ .main {
+
+	width: 15vw;
+	display: block;
+	align-items: center;
+	justify-content: center;
+    margin: auto;
+    animation: spin 3s linear infinite;
+}
+
+
+@keyframes spin {
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);
+  }
+}
+
+
+
