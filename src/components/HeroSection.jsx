@@ -8,12 +8,6 @@ import {
   Typography,
   Paper,
 } from "@mui/material";
-<<<<<<< HEAD
-import CategoryButtons from "./CategoryButtons";
-import FeaturesSection from "./FeaturesSection";
-import CarouselSection from "./CarouselSection";
-=======
->>>>>>> 0035b5a58621603643ba2ef4cd93b52418e875c0
 
 const HeroSection = ({ url, setUrl, onFetch, loading, title, placeholder }) => {
   return (
@@ -67,11 +61,7 @@ const HeroSection = ({ url, setUrl, onFetch, loading, title, placeholder }) => {
           <TextField
             fullWidth
             variant="outlined"
-<<<<<<< HEAD
-            placeholder={placeholder || "Paste video link here....."}
-=======
             placeholder={placeholder || "Paste video link here..."}
->>>>>>> 0035b5a58621603643ba2ef4cd93b52418e875c0
             value={url}
             onChange={(e) => setUrl(e.target.value)}
             sx={{
@@ -107,27 +97,13 @@ const HeroSection = ({ url, setUrl, onFetch, loading, title, placeholder }) => {
               textTransform: "none",
               "&:hover": { backgroundColor: "#f5f5f5" },
             }}
-<<<<<<< HEAD
-                  >
-                      
-=======
           >
->>>>>>> 0035b5a58621603643ba2ef4cd93b52418e875c0
             {loading ? "Fetching…" : "Fetch"}
           </Button>
         </Box>
       </Paper>
-<<<<<<< HEAD
-      
-     
-=======
->>>>>>> 0035b5a58621603643ba2ef4cd93b52418e875c0
     </Box>
   );
 };
 
-<<<<<<< HEAD
 export default HeroSection;
-=======
-export default HeroSection;
->>>>>>> 0035b5a58621603643ba2ef4cd93b52418e875c0
